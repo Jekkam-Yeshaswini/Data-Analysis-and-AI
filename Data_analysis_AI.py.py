@@ -7,6 +7,7 @@ from scipy.spatial.distance import cdist
 from scipy.cluster.hierarchy import dendrogram, linkage
 from sklearn.mixture import GaussianMixture as GMM
 
+
 # read the appropriate data (depending on training and testing) and make DataFrame
 
 data = pd.read_csv('training.csv')
